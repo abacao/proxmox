@@ -3,7 +3,7 @@
 # Docker
 apt-get update && apt upgrade -y && apt dist-upgrade -y
 
-apt-get install \
+apt-get install -y \
     apt-transport-https \
     ca-certificates \
     curl \
